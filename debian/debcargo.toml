@@ -1,0 +1,11 @@
+overlay = "."
+uploaders = [
+  "Ximin Luo <infinity0@debian.org>",
+  "Wolfgang Silbermayr <wolfgang@silbermayr.at>",
+]
+
+[packages.lib]
+extra_lines = ["Breaks: librust-cargo-dev (<= 0.43.1-4), librust-debcargo-dev (<= 2.4.4-1)"]
+
+[packages."lib+@"]
+test_is_broken = true
