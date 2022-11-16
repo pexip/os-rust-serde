@@ -6,8 +6,9 @@ Build-Depends: debhelper (>= 12),
  cargo:native <!nocheck>,
  rustc:native <!nocheck>,
  libstd-rust-dev <!nocheck>
-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-Uploaders:
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+XSBC-Pexip-Original-Uploaders:
  Ximin Luo <infinity0@debian.org>,
  Wolfgang Silbermayr <wolfgang@silbermayr.at>
 Standards-Version: 4.5.1
@@ -15,6 +16,7 @@ Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/serde]
 Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/serde
 Homepage: https://serde.rs
 Rules-Requires-Root: no
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ bookworm
 
 Package: librust-serde-dev
 Architecture: any
