@@ -11,10 +11,11 @@ XSBC-Pexip-Original-Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@al
 XSBC-Pexip-Original-Uploaders:
  Ximin Luo <infinity0@debian.org>,
  Wolfgang Silbermayr <wolfgang@silbermayr.at>
-Standards-Version: 4.5.1
+Standards-Version: 4.6.1
 Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/serde]
 Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/serde
 Homepage: https://serde.rs
+X-Cargo-Crate: serde
 Rules-Requires-Root: no
 XS-Pexip-Upstream: http://ftp.debian.org/debian/ bookworm
 
@@ -43,12 +44,12 @@ Provides:
  librust-serde-1.0+rc-dev (= ${binary:Version}),
  librust-serde-1.0+std-dev (= ${binary:Version}),
  librust-serde-1.0+unstable-dev (= ${binary:Version}),
- librust-serde-1.0.145-dev (= ${binary:Version}),
- librust-serde-1.0.145+alloc-dev (= ${binary:Version}),
- librust-serde-1.0.145+default-dev (= ${binary:Version}),
- librust-serde-1.0.145+rc-dev (= ${binary:Version}),
- librust-serde-1.0.145+std-dev (= ${binary:Version}),
- librust-serde-1.0.145+unstable-dev (= ${binary:Version})
+ librust-serde-1.0.152-dev (= ${binary:Version}),
+ librust-serde-1.0.152+alloc-dev (= ${binary:Version}),
+ librust-serde-1.0.152+default-dev (= ${binary:Version}),
+ librust-serde-1.0.152+rc-dev (= ${binary:Version}),
+ librust-serde-1.0.152+std-dev (= ${binary:Version}),
+ librust-serde-1.0.152+unstable-dev (= ${binary:Version})
 Breaks: librust-cargo-dev (<= 0.43.1-4), librust-debcargo-dev (<= 2.4.4-1)
 Description: Generic serialization/deserialization framework - Rust source code
  This package contains the source for the Rust serde crate, packaged by debcargo
@@ -60,15 +61,15 @@ Multi-Arch: same
 Depends:
  ${misc:Depends},
  librust-serde-dev (= ${binary:Version}),
- librust-serde-derive-1.0.145+default-dev
+ librust-serde-derive-1.0.152+default-dev
 Provides:
  librust-serde+derive-dev (= ${binary:Version}),
  librust-serde-1+serde-derive-dev (= ${binary:Version}),
  librust-serde-1+derive-dev (= ${binary:Version}),
  librust-serde-1.0+serde-derive-dev (= ${binary:Version}),
  librust-serde-1.0+derive-dev (= ${binary:Version}),
- librust-serde-1.0.145+serde-derive-dev (= ${binary:Version}),
- librust-serde-1.0.145+derive-dev (= ${binary:Version})
+ librust-serde-1.0.152+serde-derive-dev (= ${binary:Version}),
+ librust-serde-1.0.152+derive-dev (= ${binary:Version})
 Description: Generic serialization/deserialization framework - feature "serde_derive" and 1 more
  This metapackage enables feature "serde_derive" for the Rust serde crate, by
  pulling in any additional dependencies needed by that feature.
