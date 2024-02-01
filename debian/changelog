@@ -1,3 +1,9 @@
+rust-serde (1.0.152-2+pexip24u4) pexip-bookworm; urgency=medium
+
+  * New versioning scheme
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 01 Feb 2024 16:34:08 +0000
+
 rust-serde (1.0.152-2pexip3) pexip-bookworm; urgency=medium
 
   * Bookworm build for product distribution
